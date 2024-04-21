@@ -10,10 +10,10 @@ const App = () => {
         <div className="bg-[url('./assets/bg.JPG')] bg-no-repeat bg-cover w-screen h-screen -ml-4 -mt-4">
           <Home />
         </div>
-        <div id="info" className="w-screen -ml-4 -mt-4 h-3/5 bg-black">
+        <div id="info" className="w-screen -ml-4 -mt-4 h-3/5 bg-gray-900">
           <Info />
         </div>
-        <div className="w-screen -ml-4 -mt-4 h-full">
+        <div className="w-screen -ml-4 -mt-4 h-full bg-slate-800">
           <Resume />
         </div>
       </div>

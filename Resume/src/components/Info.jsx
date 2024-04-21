@@ -3,43 +3,38 @@ import { Separator } from "@/components/ui/separator";
 
 const Info = () => {
   return (
-    <div className="">
-      <div className="pt-32 ml-[400px] max-w-sm text-left">
+    <div className="flex justify-between">
+      <div className="ml-[400px] max-w-sm text-left">
         <h1 className="text-2xl mb-2 font-bold">
           Name:{" "}
-          <h1 className="p-3 text-2xl mb-2 font-normal inline">
-            {" "}
-            Shane Taylor
-          </h1>
+          <span className="p-3 text-2xl font-normal inline">Shane Taylor</span>
         </h1>
-        <Separator />
+        <Separator className="mt-3 mb-3" />
         <h1 className="text-2xl mb-2 font-bold">
-          Pronouns:
-          <h1 className="p-3 text-2xl mb-2 font-normal inline"> He/Him</h1>
+          Pronouns:{" "}
+          <span className="p-3 text-2xl mb-2 font-normal inline">He/Him</span>
         </h1>
-        <Separator />
+        <Separator className="mt-3 mb-3" />
         <h1 className="text-2xl mb-2 font-bold">
-          School:
-          <h1 className="p-3 text-2xl mb-2 font-normal inline"> UMBC</h1>
+          School:{" "}
+          <span className="p-3 text-2xl mb-2 font-normal inline">UMBC</span>
         </h1>
-        <Separator />
+        <Separator className="mt-3 mb-3" />
         <h1 className="text-2xl mb-2 font-bold">
-          Age:
-          <h1 className="p-3 text-2xl mb-2 font-normal inline"> 21</h1>
+          Age: <span className="p-3 text-2xl mb-2 font-normal inline">21</span>
         </h1>
-        <Separator />
+        <Separator className="mt-3 mb-3" />
         <h1 className="text-2xl mb-2 font-bold">
-          Location:
-          <h1 className="p-3 text-2xl mb-2 font-normal inline"> Maryland</h1>
+          Location:{" "}
+          <span className="p-3 text-2xl mb-2 font-normal inline">Maryland</span>
         </h1>
       </div>
 
-      <div className="flex justify-end mr-[200px]">
+      <div className="right-text">
         <h1 className="text-current text-4xl font-bold mb-4">
           Coding Languages
         </h1>
-        <br />
-        <p className=" text-2xl mb-2">
+        <p className="text-2xl mb-2">
           JavaScript | C++ | SQL | HTML | CSS | Python | Java | C
         </p>
       </div>
